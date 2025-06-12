@@ -158,23 +158,23 @@ go run main.go
 ## References and Inspiration
 
 ### Primary References
-- **@dakom's EnTT Gist**: Comprehensive sparse set ECS architecture overview
+- **@dakom's EnTT Gist**: Comprehensive sparse set ECS architecture [overview](https://gist.github.com/dakom/82551fff5d2b843cbe1601bbaff2acbf)
   - Sparse set implementation patterns
   - Entity recycling strategies
   - Performance optimization techniques
 
-- **EnTT Library**: Modern C++ ECS library by Michele Caini
+- **EnTT Library**: Modern C++ ECS [library](https://github.com/skypjack/entt) by Michele Caini
   - Sparse set-based component storage
   - Type-safe component access
   - Advanced query capabilities
 
 ### Academic Papers
-- **Sparse Set Data Structure**: Briggs & Torczon (1993)
+- **[Sparse Set Data Structure](https://dl.acm.org/doi/pdf/10.1145/176454.176484)**: Briggs & Torczon (1993)
   - Efficient set operations for sparse data
   - O(1) membership testing and iteration
 
 ### ECS Architecture References
-- **gecs Library**: Pre-generics Go ECS implementation
+- **[gecs](https://github.com/tutumagi/gecs) Library**: Pre-generics Go ECS implementation
   - Comparison baseline for modern Go approaches
   - Interface-based component storage patterns
 
